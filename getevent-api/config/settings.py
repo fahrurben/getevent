@@ -139,3 +139,5 @@ REST_FRAMEWORK = {
     'COERCE_DECIMAL_TO_STRING': False,
     'EXCEPTION_HANDLER': 'getevent.middlewares.default_exception_handler',
 }
+
+APPEND_SLASH=False
